@@ -1,0 +1,92 @@
+header, footer {
+
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0px 5px 0px;
+    
+    }
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 20px;
+    border: 1px dashed;
+    padding: 2px;
+}
+
+p {
+    font-size: 12px;
+    color: #000000;
+    background-color: #999999;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.mydiv {
+    border-style: dotted;
+    border-width: 2px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.leipateksti {
+    background-color: #666666;
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: white;
+    padding: 2px;
+    margin: 5px 0px 5px 0px;
+}
+
+.main {
+    display: flex;
+ }
+ 
+ .main div {
+     flex: 1;
+     text-align: center;
+ }
+
+
+.navigointi {
+    background-color: #ffffff;
+    float: left;
+    width: 20%;
+    height: 300px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.lorem {
+    background-color: #666666;
+    float: left;
+    width: 74%;
+    height: 300px;
+    padding: 5px 10px 5px 10px;
+
+}
+
+a:hover {
+    color: red;
+  }
