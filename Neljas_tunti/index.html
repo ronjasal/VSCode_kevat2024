@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taulukko ja lomake</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Taulukko ja lomake</h1>
+
+    <h2>Taulukko</h2>
+    <caption>Nimi- ja ikätaulukko</caption>
+        <table>
+            <t>
+                <th colspan="2">Nimi</th>
+                <th>Ikä</th>
+            </tr>
+            <tr>
+                <td>Pekka</td>
+                <td>Pekkanen</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Markku</td>
+                <td>Markkunen</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Pirkko</td>
+                <td>Pirkkonen</td>
+                <td>35</td>
+            </tr>
+        </table>
+        <br>
+
+    <h2>Lomake</h2>
+    <caption>Nimen tallennus</caption>
+        <form action="#">
+            <label for="etunimi">Etunimi</label><br>
+            <input type="text" id="etunimi" name="etunimi"><br>
+            <label for="sukunimi">Sukunimi</label><br>
+            <input type="text" id="sukunimi" name="sukunimi"><br>
+            <label for="ika">Ikä</label><br>
+            <input type="number" id="ika" min="1" max="150"><br><br>
+            <input type="submit" value="Tallenna">
+        </form>
+        <br><br>
+
+    <input type="date"><br><br>
+    <input type="color"><br><br>
+    <select name="" id="">
+        <option value="valinta">Valinta</option>
+        <option value="1">Yksi</option>
+        <option value="2">Kaksi</option>
+        <option value="3">Kolme</option>
+    </select>
+
+</body>
+</html>
